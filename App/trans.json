@@ -1,0 +1,15 @@
+{
+    "sport":
+    {
+        "lv": "sports", "eng": "sport", "ru": "спорт"
+    },
+    "participants":
+    {
+        "lv": "dalībnieki", "eng": "participants", "ru": "участники"
+    },
+    "fight_tree":
+    {
+        "lv": "cīņas lauks", "eng": "fight tree", "ru": "поле битвы"
+    }
+
+}

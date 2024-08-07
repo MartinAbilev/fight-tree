@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "plugins": [
+        "react", "jsx"
+      ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "jsx/uses-factory": [1, {"pragma": "JSX"}],
+        "jsx/mark-used-vars": 1,
+        "jsx/no-undef": 1,
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn"
+    },
+    "globals": {
+        "React": true,
+        "ReactDOM": true,
+        "PropTypes": true,
+        "isOdd": true,
+        "faker": true,
+        "BootstrapTable": true,
+        "TableHeaderColumn": true,
+        "moment": true,
+        "uuid": true,
+        "log": true,
+        "Css": true,
+        "DB": true
+    }
+
+}
